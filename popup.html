@@ -1,0 +1,24 @@
+<!-- popup.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Filling Assistant</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Form Filling Assistant</h1>
+        <form id="inputForm">
+            <label for="pdfDocFile">Upload PDF File:</label>
+            <input type="file" id="pdfDocFile" accept=".pdf"><br>
+            <label for="formURL">Form URL:</label>
+            <input type="url" id="formURL" placeholder="Enter form URL"><br>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="status"></div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
